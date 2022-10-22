@@ -1,0 +1,571 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarfaraj's Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="csshake.css" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-info navbar-expand-lg navbar-expand-sm sticky-top shadow-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler " data-bs-toggle="offcanvas" data-bs-target="#demo">
+                <span><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="nav1">
+                <ul class="navbar-nav ">
+                    <li class="nav-item me-5">
+                        <a href="#" class="nav-link text-white">Home</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a href="#about" class="nav-link text-white">About</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a href="#skills" class="nav-link text-white">skills</a>
+                    </li>
+                    <li class="nav-item me-5 text-white">
+                        <a href="#bio" class="nav-link text-white">Education</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a href="#hobbies" class="nav-link text-white">Hobbies</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a href="#contect" class="nav-link text-white">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" name="darkmode" value="yes" id="change">
+                <label>Dark Mode</label>
+            </div>
+
+        </div>
+    </nav>
+    <!-- slaider  -->
+    <nav>
+        <div class="offcanvas offcanvas-start w-50 collapse" id="demo">
+            <div class="offcanvas-header justify-content-end">
+                <!-- <h1 class="offcanvas-title"></h1> -->
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body bg-dark">
+                <!-- <div class="collapse navbar-collapse" id="nav1"> -->
+                <ul class="navbar-nav ">
+                    <li class="nav-item ">
+                        <a href="#home" class="nav-link active text-white">Home</a>
+                    </li>
+                    <li class="nav-item me-5 ">
+                        <a href="#about" class="nav-link text-white">About</a>
+                    </li>
+                    <li class="nav-item me-5 text-white">
+                        <a href="#skills" class="nav-link text-white">Skills</a>
+                    </li>
+                    <li class="nav-item me-5 text-white">
+                        <a href="#bio" class="nav-link text-white">Education</a>
+                    </li>
+                    <li class="nav-item me-5 ">
+                        <a href="#hobbies" class="nav-link text-white">Hobbies</a>
+                    </li>
+                    <li class="nav-item me-5 ">
+                        <a href="#contect" class="nav-link text-white">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mb-5" id="home">
+        <div class="row  mx-auto mt-5">
+            <div class="col-lg-8 mt-3 ">
+                <h1>Hello...</h1>
+                <h1>My Name is Mohammad Sarfaraj</h1>
+                <h1 class="mb-5">I am a <span class="type  " style="font-family: cursive; "></span></h1>
+                <button class="btn btn-outline-secondary rounded-pill mx-auto d-inline" id="btn1"><a
+                        href="my-resume.pdf" target="_blank" style="text-decoration: none" class="text-white">My
+                        Resume</a>
+                    <button class="  btn rounded-pill m-5 btn-outline-secondary" id="btn2"><a href="my-resume.pdf"
+                            target="_blank" style="text-decoration: none" class="text-white">Hire Me</a></button>
+                    <p align="center" class="justify-centent-center mt-5">
+                        <a href="#contect"><i class="fa-solid fa-angles-down heartbeat"></i></a>
+                    </p>
+            </div>
+            <div class=" col-lg-4 mt-3">
+                <img src="image/s.jpg" alt="image not found" class="img-fluid  h-75 w-100 rounded-pill">
+            </div>
+        </div>
+    </div>
+    <!-- about section -->
+    <section class="mt-5">
+        <h1 align="center" id="about"><span class="text-success about1"> About</span> </h1>
+        <p align="justfy" class=" mx-auto shadow-lg p-5 m-5 w-75" id="border">
+            Hello! May Name is Mohammad Sarfaraj.I am from Ajmer and i have done my Senior & Secondary Education from RBSE Bord. 
+            <span class="collapse" id="more">currently pursuing graduation in MDS university and ICST Diploma from star
+                info tech college. </span>
+            <span class="text-primary" data-bs-toggle="collapse" data-bs-target="#more" style="cursor:pointer">read
+                more..</span>
+        </p>
+    </section>
+    <section c>
+        <h1 align="center" id="skills"><span class="text-success about1">Skills</span> </h1>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card mt-5 shadow-lg">
+                        <div class="card-hedder">
+                            <h2 class="card-title mt-3" align="center">HTML 5</h2>
+                            <img src="image/html.jpg" alt="image not found"
+                                class="img-fliud rounded-circle card-img-top w-50 mx-auto d-block mt-3">
+                            <hr />
+                        </div>
+                        <div class="card-body">
+                            <div class="progress" style="height: 20px;border-radius: 100px;">
+                                <div class="progress-bar"
+                                    style="width:90%;height:20px;background-color:rgb(255, 115, 0);border-radius: 100px; ">
+                                    90%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mt-5 shadow-lg">
+                        <div class="card-hedder">
+                            <h2 class="card-title mt-3" align="center">CSS 3</h2>
+                            <img src="image/css.jpg" alt="image not found"
+                                class="img-fliud rounded-circle card-img-top w-50 mx-auto d-block mt-3">
+                            <hr />
+                        </div>
+                        <div class="card-body">
+                            <div class="progress" style="height: 20px;border-radius: 100px;">
+                                <div class="progress-bar"
+                                    style="width:95%;height:20px;background-color:rgb(40, 24, 255);border-radius: 100px; ">
+                                    CSS 95%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mt-5 shadow-lg">
+                        <div class="card-hedder">
+                            <h2 class="card-title mt-3" align="center">JAVA SCRIPT</h2>
+                            <img src="image/js.jpg" alt="image not found"
+                                class="img-fliud rounded-circle card-img-top w-50 mx-auto d-block mt-3">
+                            <hr />
+                        </div>
+                        <div class="card-body">
+                            <div class="progress" style="height: 20px;border-radius: 100px;">
+                                <div class="progress-bar"
+                                    style="width:75%;height:20px;background-color:rgb(50, 96, 139);border-radius: 100px;">
+                                    JavaScript75%</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card mt-5 shadow-lg">
+                        <div class="card-hedder">
+                            <h2 class="card-title mt-3" align="center">C language</h2>
+                            <img src="image/cl.jpg" alt="image not found"
+                                class="img-fliud rounded-circle card-img-top w-50 mx-auto d-block mt-3">
+                            <hr />
+                        </div>
+                        <div class="card-body">
+                            <div class="progress" style="height: 20px;border-radius: 100px;">
+                                <div class="progress-bar"
+                                    style="width:95%;height:20px;background-color:rgb(140, 160, 144);border-radius: 100px; ">
+                                    C Language 95%</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mt-5 shadow-lg">
+                        <div class="card-hedder">
+                            <h2 class="card-title mt-3" align="center">Jquery</h2>
+                            <img src="image/jquery.jpg" alt="image not found"
+                                class="img-fliud rounded-circle card-img-top w-50 mx-auto d-block mt-3">
+                            <hr />
+                        </div>
+                        <div class="card-body">
+                            <div class="progress" style="height: 20px;border-radius: 100px;">
+                                <div class="progress-bar"
+                                    style="width:85%;height:20px;background-color:rgb(151, 248, 172);border-radius: 100px; ">
+                                    J
+                                    query85%</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mt-5 shadow-lg">
+                        <div class="card-hedder">
+                            <h2 class="card-title mt-3" align="center">bootstrap 5</h2>
+                            <img src="image/bs.jpg" alt="image not found"
+                                class="img-fliud rounded-circle card-img-top w-50 mx-auto d-block mt-3">
+                            <hr />
+                        </div>
+                        <div class="card-body">
+                            <div class="progress" style="height:20px;border-radius:100px;">
+                                <div class="progress-bar"
+                                    style="width:90%;height:20px;background-color: blueviolet;border-radius: 100px; ">
+                                    Bootstrap90%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-5">
+        <h1 align="center" id="bio" class="mt-4"><span class="text-success">Education</span> </h1>
+
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-lg-4 shadow mt-3" style="line-height:1;" id="border">
+                    <p class="mt-3 op"><i class="fa fa-briefcase cv-icon"></i>Freelancer</p>
+                    <p class="op"><i class="fa fa-home cv-icon"></i>Ajmer,Rajasthan,India</p>
+                    <p class="op"><i class="fa fa-envelope-open cv-icon"></i>sarfrazshah8013@gmail.com</p>
+                    <p class="op"><i class="fa fa-phone fa-fw cv-icon"></i>8290778868</p>
+                    <hr>
+                    <p style="font-size:x-large; "class="op"><b><i class="fa fa-asterisk cv-icon"></i>Skills</b></p>
+                    <p class="op">Communication</p>
+                    <div class="progress rounded-pill" style="height:20px;">
+                        <div class="progress progress-bar rounded-pill"
+                            style="width:90%;height: 20px; background-color: rgb(10, 93, 66);">90%</div>
+                    </div>
+                    <p class="op">leadership Quality</p>
+                    <div class="progress rounded-pill" style="height:20px;">
+                        <div class="progress progress-bar rounded-pill"
+                            style="width:90%;height: 20px; background-color: rgb(10, 93, 66);">90%</div>
+                    </div>
+                    <p class="op">Emotional Intelligence</p>
+                    <div class="progress rounded-pill" style="height:20px;">
+                        <div class="progress progress-bar rounded-pill"
+                            style="width:70%;height: 20px; background-color: rgb(10, 93, 66);">90%</div>
+                    </div>
+                    <p class="op"> Responsibility</p>
+                    <div class="progress rounded-pill" style="height:20px;">
+                        <div class="progress progress-bar rounded-pill"
+                            style="width:95%;height: 20px; background-color: rgb(10, 93, 66);">90%</div>
+                    </div>
+                    <hr/>
+                    <p style="font-size:large"><i class="fa fa-globe cv-icon"></i><b>Languages</b></p>
+                    <p class="op">Hindi</p>
+                    <div class="progress rounded-pill" style="height:20px;">
+                        <div class="progress progress-bar rounded-pill"
+                            style="width:95%;height: 20px; background-color: rgb(10, 93, 66);"></div>
+                    </div>
+                    <p class="op">English</p>
+                    <div class="progress rounded-pill" style="height:20px;">
+                        <div class="progress progress-bar rounded-pill"
+                            style="width:85%;height: 20px; background-color: rgb(10, 93, 66);"></div>
+                    </div>
+                    <p class="op">Urdu</p>
+                    <div class="progress rounded-pill" style="height:20px;">
+                        <div class="progress progress-bar rounded-pill"
+                            style="width:50%;height: 20px; background-color: rgb(10, 93, 66);"></div>
+                    </div>
+                    <br>
+                </div>
+                <div class="col-lg-8 ">
+                    <div class="container shadow mt-3" id="border">
+                        <div class="container">
+                            <h2 class="op"><i class="fa fa-suitcase cv-icon mt-4"></i>Work Experience</h2>
+                            <div class="container">
+                                <h5 class="pt-3" ><b class="op">Medicine company</b></h5>
+                                <h6 class="cv-icon"><i class="fa-solid fa-calendar-days cv-icon" style="font-size:large;"></i>2020-2021</h6>
+                                <hr class="mt-5">
+                                <h5 class=""><b class="op">Stock Market(Angel Broking)</b></h5>
+                                <h6 class="cv-icon"><i class="fa-solid fa-calendar-days cv-icon"style="font-size:large;"></i>Fab 2021 - jan 2022
+                                </h6>
+                                <hr class="mt-5">
+                                <h5 class=""><b class="op">web design (freelancing)</b></h5>
+                                <h6 class="cv-icon pb-5"><i class="fa-solid fa-calendar-days cv-icon" style="font-size:large;"></i>feb-2022<span
+                                        class="badge bg-success pt-1 op rounded-pill ms-2">Current</span></h6>
+                                        <hr class="mb-5">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container shadow mt-4" id="border">
+                        <div class="container">
+                            <h2 class="op"><i class="fa fa-certificate cv-icon mt-4"></i>Education</h2>
+                            <div class="container">
+                                <h5 class="pt-3"><b class="op">Stat infotech College</b></h5>
+                                <h6 class="cv-icon"><i class="fa-solid fa-calendar-days cv-icon"style="font-size:large;"></i>2022</h6>
+                                <p class="op">Master of Computer Application</p>
+                                <hr class="mt-4">
+                                <h5 class=""><b class="op">S.P.C Govt College</b></h5>
+                                <h6 class="cv-icon"><i class="fa-solid fa-calendar-days cv-icon"style="font-size:large;"></i>2019-2022</h6>
+                                <p class="op">Bachelor Degree</p>
+                                <hr class="mt-4">
+                                <h5 class=""><b class="op">School</b></h5>
+                                <h6 class="cv-icon"><i class="fa-solid fa-calendar-days cv-icon"style="font-size:large;"></i>Complete in 2018</h6>
+                                <p class="op">Senior Secondry Education</p>
+                                <hr class="mb-5">
+                            </div>
+                        </div>
+                    </div>
+
+
+    </section>
+
+    <!-- hobbies section -->
+    <section>
+        <h1 align="center" id="hobbies" class="mt-4"><span class="text-success"> Hobbies</span> </h1>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-3 col-sm-4 shadow hb mt-3" id="border">
+                    <h2 align="center">Cricket</h2>
+                    <img src="image/cri.gif" alt="image not found" class="img-fluid rounded-circle mx-auto d-block mt-5">
+                </div>
+                <div class="col-lg-3 col-sm-4 shadow-lg hb mt-3" id="border">
+                    <h2 align="center">Music</h2>
+                    <img src="image/music.gif" alt="image not found"
+                        class="img-fluid rounded-circle mx-auto d-block h-75">
+                </div>
+                <div class="col-lg-3 col-sm-4  shadow-lg hb mt-3" id="border">
+                    <h2 align="center">Cooking</h2>
+                    <img src="image/cooking.gif" alt="image not found"
+                        class="img-fluid rounded-circle mx-auto d-block h-75">
+                </div>
+                <div class="col-lg-3 col-sm-4 shadow-lg hb mt-3" id="border">
+                    <h2 align="center">Travelling</h2>
+                    <img src="image/travling.gif" alt="image not found"
+                        class="img-fluid rounded-circle mx-auto d-block H-75">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="mt-5 mb-5">
+        <div class="container mt-5">
+            <h1 align="center" id="contect" class="mt-4"><span class="text-success"> Contact</span> </h1>
+            <div class="row mt-5">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-4">
+                    <h3></h3>
+                    <form class="form" id="border">
+                        <table class="table table-borderless shadow-lg border-bottom-" style="border: solid 1px black;">
+                            <tr
+                                style="background-image:linear-gradient(to top left, rgb(176, 0, 182), rgb(255, 0, 212));">
+                                <td>
+                                <th>
+                                    <h3 style="position:relative;right: 100%;color: aliceblue;">
+                                        Contact
+                                    </h3>
+                                </th>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input type="text" name="name" placeholder="Insert your name" required
+                                        class="form-control mb-5 border-top-0  border-start-0 border-end-0">
+
+                                    <input type="email" name="email" placeholder="Insert your Email" required
+                                        class="form-control mb-5 border-top-0  border-start-0 border-end-0 ">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <textarea name="" rows="5" class="form-control mb-4 " style="resize: none;"
+                                        placeholder="comment"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button
+                                        class="btn btn-outline-secondary btn-dark rounded-pill btn-lg text-white  ms-5"><i
+                                            class="fa-solid fa-paper-plane pe-2"></i>message</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+                <div class="col-lg-7 mt-5">
+                     <div class="d-flex  ms-4 mb-5">
+                        <div class=" h4 me-5" style="font-family: monospace;"><i class="fa-solid fa-file-signature"></i></div>
+                        <div class=" h5" style="font-family: monospace;"> Mohammad Sarfaraj</div>
+                    </div>
+                    <div class="d-flex ms-4 mb-5">
+                        <div class=" h4" style="font-family: monospace;"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class=" h5 ps-5" style="font-family: monospace;">Near madina Masjid Longia mohalla</div>
+                    </div>
+                    <div class="d-flex ms-4 mb-5 ">
+                        <div class=" h4 me-5" style="font-family: monospace;"><i class="fa-solid fa-city"></i></div>
+                        <div class=" h5" style="font-family: monospace;">Ajmer, Rajasthan</div>
+                    </div>
+                    <div class="d-flex ms-4 mb-5">
+                        <div class=" h4 me-4" style="font-family: monospace;"><i class="fa-brands fa-google-plus-g"></i></div>
+                        <div class=" h5" style="font-family: monospace;">sarfrazshah8013@gmail.com</div>
+                    </div>
+                    <div class="d-flex ms-4 mb-5">
+                        <div class="h4 me-5" style="font-family: monospace;"><i class="fa-solid fa-phone"></i></div>
+                        <div class="h4" style="font-family: monospace;">+91 8290778868</div>
+                    </div>
+
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer style="background-color: skyblue;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+
+                    <p align="justify" class="pt-3">
+                    <h6>Follow me on Social media</h4>
+                        <a href="https://www.facebook.com/profile.php?id=100006119087259" target="_blank"><i
+                                class="fa-brands fa-facebook icon"></i></a>
+                        <a href="https://www.instagram.com/sarfraz9334/" target="_blank"><i
+                                class="fa-brands fa-instagram icon"></i></a>
+                        <a href="https://twitter.com/sarfrazshah8013" target="_blank"><i
+                                class="fa-brands fa-twitter icon"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=918290778868" target="_blank"><i
+                                class="fa-brands fa-whatsapp icon"></i></a>
+                        <a href="https://www.linkedin.com/in/sarfraz-shah-928674248/" target="_blank"><i
+                                class="fa-brands fa-linkedin-in icon"></i></a>
+                        <a href="https://sarfrazshah8013@gmail.com" target="_blank"> <i
+                                class="fa-solid fa-envelope icon"></i></a>
+                        </p>
+                </div>
+                <div class="col-lg-6">
+                    <p align="Right">
+                    <p class="h3">Share your feedback</p>
+                    <i class="fa-solid fa-star" aria-hidden="true" id="one"></i>
+                    <i class="fa-solid fa-star" aria-hidden="true" id="two"></i>
+                    <i class="fa-solid fa-star" aria-hidden="true" id="three"></i>
+                    <i class="fa-solid fa-star" aria-hidden="true" id="four"></i>
+                    <i class="fa-solid fa-star" aria-hidden="true" id="five"></i>
+                    </p>
+                    <button onclick="popup()" id="pop" class="btn btn-sm btn-dark">
+                        sumbit
+                    </button>
+                </div>
+            </div>
+            <p align="center"> <span class="text-white">Copy Right.</span> All Rights Reserved. Designed by Mohammad
+                Sarfaraj </p>
+        </div>
+    </footer>
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed('.type', {
+        // Waits 1000ms after typing "First"
+        strings: ['"software developer" .^1500', '"web designer".^1500','"chef".^1500'],
+        smartBackspace: true,
+        loop: Infinity
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $("#change").click(function () {
+            $("body").toggleClass("blue")
+        });
+    });
+    $(document).ready(function () {
+        $("#change").click(function () {
+            $(".about1").toggleClass("about1")
+        });
+    });
+    $(document).ready(function () {
+        $("#change").click(function () {
+            $("body").toggleClass("textcolor")
+        });
+    });
+    $(document).ready(function () {
+        $("#change").click(function () {
+            $(".card").toggleClass("blue")
+        });
+    });
+    $(document).ready(function () {
+        $("#change").click(function () {
+            $("input,textarea").toggleClass("blue")
+        });
+    });
+    $(document).ready(function () {
+        $("#change").click(function () {
+            $(".h4,p").toggleClass("textcolor")
+        });
+    });
+    $(document).ready(function () {
+        $("#change").click(function () {
+            $("#email").toggleClass("textcolor")
+        });
+    });
+    $(document).ready(function () {
+        $("#change").click(function () {
+            $("#border").toggleClass("broder")
+        });
+    });
+
+
+    // feedback function
+    function popup() {
+        swal({
+  title: "Thank You",
+  text: "For Your feedback",
+  icon: "https://freepngimg.com/thumb/emoji/6-2-angel-blushing-smile-emoji-png-thumb.png",
+  button: "Ok",
+});
+    }
+    
+    // rating script
+    // first star
+    $(document).ready(function () {
+        $("#one").click(function () {
+            $(".fa-star").css("color", "black")
+            $("#one").css("color", "yellow")
+        });
+    });
+    // second star
+    $(document).ready(function () {
+        $("#two").click(function () {
+            $(".fa-star").css("color", "black")
+            $("#two,#one").css("color", "yellow")
+        });
+    });
+    // third star
+    $(document).ready(function () {
+        $("#three").click(function () {
+            $(".fa-star").css("color", "black")
+            $("#three,#two,#one").css("color", "yellow")
+        });
+    });
+    // fourth star
+    $(document).ready(function () {
+        $("#four").click(function () {
+            $(".fa-star").css("color", "black")
+            $("#four,#two,#one,#three").css("color", "yellow")
+        });
+    });
+    // fivefth star
+    $(document).ready(function () {
+        $("#five").click(function () {
+            $(".fa-star").css("color", "black")
+            $(".fa-star").css("color", "yellow")
+        });
+    });
+</script>
+
+
+</html>
